@@ -62,3 +62,6 @@ ball.draw()
 ball.update()
 }
 }
+function windowResized(){
+    resizeCanvas(windowWidth, windowHeight);
+}
